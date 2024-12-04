@@ -1,0 +1,25 @@
+﻿@page
+@model Agency.Pages.News.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/index.css" />
+</head>
+
+<table class="table">
+    @foreach (var item in Model.Article)
+    {
+        <div class="news-container">
+            <h1 class="news-title">@Html.DisplayFor(modelItem => item.title)</h1>
+            <p class="news-description">@Html.DisplayFor(modelItem => item.descriptions)</p>
+            <p class="news-date"><h6>@Html.DisplayFor(modelItem => item.datetime)</h6></p>
+        </div>
+    }
+</table>
+
+<a asp-page="News/Index">ToNewsForAdmin</a>

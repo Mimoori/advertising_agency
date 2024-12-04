@@ -1,0 +1,17 @@
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\bin\Debug\net8.0\Agency.Core.deps.json
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\bin\Debug\net8.0\Agency.Core.dll
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\bin\Debug\net8.0\Agency.Core.pdb
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\obj\Debug\net8.0\Agency.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\obj\Debug\net8.0\Agency.Core.AssemblyInfoInputs.cache
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\obj\Debug\net8.0\Agency.Core.AssemblyInfo.cs
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\obj\Debug\net8.0\Agency.Core.csproj.CoreCompileInputs.cache
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\obj\Debug\net8.0\Agency.Core.dll
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\obj\Debug\net8.0\refint\Agency.Core.dll
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\obj\Debug\net8.0\Agency.Core.pdb
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\obj\Debug\net8.0\ref\Agency.Core.dll
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\bin\Debug\net8.0\Agency.Common.dll
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\bin\Debug\net8.0\Agency.Database.dll
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\bin\Debug\net8.0\Agency.Database.pdb
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\bin\Debug\net8.0\Agency.Common.pdb
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\obj\Debug\net8.0\Agency.Core.csproj.AssemblyReference.cache
+C:\Users\Maksim\OneDrive\Рабочий стол\Agency\Agency.Core\obj\Debug\net8.0\Agency.C.CAA10FFB.Up2Date

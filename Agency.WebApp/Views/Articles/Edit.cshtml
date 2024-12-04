@@ -1,0 +1,54 @@
+﻿@model Agency.WebApp.Models.Article
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Article</h4>
+<hr />
+<div class="row">
+    <div class="col-md-8">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="id" />
+
+            <!-- Title Field -->
+            <div class="form-group">
+                <label asp-for="title" class="control-label"></label>
+                <input asp-for="title" class="form-control" />
+                <span asp-validation-for="title" class="text-danger"></span>
+            </div>
+
+            <!-- Descriptions Field (Now using a textarea for rich text editing) -->
+            <div class="form-group">
+                <label asp-for="descriptions" class="control-label"></label>
+                <textarea asp-for="descriptions" class="form-control" rows="6"></textarea>
+                <span asp-validation-for="descriptions" class="text-danger"></span>
+            </div>
+
+            <!-- DateTime Field -->
+            <div class="form-group">
+                <label asp-for="datetime" class="control-label"></label>
+                <input asp-for="datetime" type="date" class="form-control" />
+                <span asp-validation-for="datetime" class="text-danger"></span>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

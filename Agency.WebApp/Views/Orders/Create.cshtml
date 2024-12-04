@@ -1,0 +1,94 @@
+﻿@model Agency.WebApp.Models.Order
+
+<style>
+    .centered-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Занять всю высоту экрана */
+    }
+
+    .form-container {
+        width: 800px; /* Увеличенная ширина формы */
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center; /* Центрирование кнопки */
+    }
+
+    .centered {
+        text-align: center;
+    }
+</style>
+
+<h2 class="centered">Создание заказа</h2>
+
+<h4>Пожалуйста, заполните форму ниже, чтобы создать новый заказ.</h4>
+
+<div class="centered-form">
+    <div class="form-container">
+        <h4>Order</h4>
+        <hr />
+        <form asp-action="Create" onsubmit="return confirmCreation()">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="id_client" class="control-label"></label>
+                <select asp-for="id_client" class="form-control" asp-items="ViewBag.Client">
+                    <option value="">Select a Client</option>
+                </select>
+                <span asp-validation-for="id_client" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="discription" class="control-label"></label>
+                <input asp-for="discription" class="form-control" />
+                <span asp-validation-for="discription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="service_name" class="control-label"></label>
+                <input asp-for="service_name" class="form-control" />
+                <span asp-validation-for="service_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="date_start" class="control-label"></label>
+                <input asp-for="date_start" type="date" class="form-control" />
+                <span asp-validation-for="date_start" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="date_end" class="control-label"></label>
+                <input asp-for="date_end" type="date" class="form-control" />
+                <span asp-validation-for="date_end" class="text-danger"></span>
+            </div>
+
+            <div class="btn-container">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<script>
+    function confirmCreation() {
+        return confirm("Вы уверены, что хотите создать заказ?");
+    }
+</script>

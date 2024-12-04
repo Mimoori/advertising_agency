@@ -1,0 +1,36 @@
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Отступы между блоками */
+    justify-content: space-between; /* Разделяет блоки по всей ширине */
+    margin: 0 auto; /* Центрирует контейнер */
+    max-width: 1200px; /* Ограничивает максимальную ширину контейнера */
+}
+
+.news-item {
+    flex: 1 1 30%; /* Блоки занимают 30% ширины */
+    box-sizing: border-box; /* Учитывает паддинги и бордеры в размере элемента */
+    padding: 20px;
+    border: 1px solid #ddd; /* Добавляет рамку */
+    border-radius: 8px; /* Скругляет углы */
+    background-color: #f9f9f9; /* Легкий фон */
+}
+
+@media (max-width: 1024px) {
+    .news-item {
+        flex: 1 1 45%; /* На экранах меньше 1024px будет 2 блока в строке */
+    }
+}
+
+@media (max-width: 768px) {
+    .news-item {
+        flex: 1 1 100%; /* На экранах меньше 768px будет 1 блок в строке */
+    }
+}
+
+h1, h3, p {
+    word-wrap: break-word; /* Разбивает длинные слова */
+    white-space: normal; /* Позволяет тексту переноситься */
+    overflow-wrap: break-word; /* Еще один способ предотвращения переполнения */
+    word-break: break-all; /* Если слово слишком длинное, оно будет разбиваться */
+}
