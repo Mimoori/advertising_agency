@@ -11,5 +11,6 @@ namespace Agency.Database
         public DbSet<Order> orders { get; set; }
         public DbSet<Client> clients { get; set; }
         public DbSet<Service> service { get; set; }
+
     }
 }

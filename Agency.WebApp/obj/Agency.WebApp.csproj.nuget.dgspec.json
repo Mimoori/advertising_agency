@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Viktoria\\Desktop\\Курс.Проект\\Agency\\Agency.WebApp\\Agency.WebApp.csproj": {}
+    "C:\\Users\\Viktoria\\Documents\\GitHub\\advertising_agency\\Agency.WebApp\\Agency.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Viktoria\\Desktop\\Курс.Проект\\Agency\\Agency.WebApp\\Agency.WebApp.csproj": {
+    "C:\\Users\\Viktoria\\Documents\\GitHub\\advertising_agency\\Agency.WebApp\\Agency.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Viktoria\\Desktop\\Курс.Проект\\Agency\\Agency.WebApp\\Agency.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Viktoria\\Documents\\GitHub\\advertising_agency\\Agency.WebApp\\Agency.WebApp.csproj",
         "projectName": "Agency.WebApp",
-        "projectPath": "C:\\Users\\Viktoria\\Desktop\\Курс.Проект\\Agency\\Agency.WebApp\\Agency.WebApp.csproj",
+        "projectPath": "C:\\Users\\Viktoria\\Documents\\GitHub\\advertising_agency\\Agency.WebApp\\Agency.WebApp.csproj",
         "packagesPath": "C:\\Users\\Viktoria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Viktoria\\Desktop\\Курс.Проект\\Agency\\Agency.WebApp\\obj\\",
+        "outputPath": "C:\\Users\\Viktoria\\Documents\\GitHub\\advertising_agency\\Agency.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

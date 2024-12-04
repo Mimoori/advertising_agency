@@ -86,8 +86,8 @@
               "Title": "ApplicationContext.cs",
               "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "Agency.WebApp\\ApplicationContext.cs",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\ApplicationContext.cs*",
-              "RelativeToolTip": "Agency.WebApp\\ApplicationContext.cs*",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\ApplicationContext.cs",
+              "RelativeToolTip": "Agency.WebApp\\ApplicationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T14:53:40.38Z",
@@ -103,8 +103,7 @@
               "RelativeToolTip": "Agency.WebApp\\Controllers\\ArticlesController.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T06:19:45.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T06:19:45.971Z"
             },
             {
               "$type": "Document",
@@ -124,12 +123,11 @@
               "Title": "ServiceController.cs",
               "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Controllers\\ServiceController.cs",
               "RelativeDocumentMoniker": "Agency.WebApp\\Controllers\\ServiceController.cs",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Controllers\\ServiceController.cs*",
-              "RelativeToolTip": "Agency.WebApp\\Controllers\\ServiceController.cs*",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "Agency.WebApp\\Controllers\\ServiceController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T06:19:24.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T06:19:24.163Z"
             },
             {
               "$type": "Document",
@@ -201,8 +199,7 @@
               "RelativeToolTip": "Agency.WebApp\\Views\\Home\\Service.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T20:50:37.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T20:50:37.04Z"
             },
             {
               "$type": "Document",
@@ -250,8 +247,7 @@
               "RelativeToolTip": "Agency.WebApp\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T19:56:38.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T19:56:38.11Z"
             }
           ]
         }

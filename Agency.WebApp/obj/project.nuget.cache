@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RaS9hzXK0V8=",
+  "dgSpecHash": "QBJmaWdZh5s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Viktoria\\Desktop\\Курс.Проект\\Agency\\Agency.WebApp\\Agency.WebApp.csproj",
+  "projectFilePath": "C:\\Users\\Viktoria\\Documents\\GitHub\\advertising_agency\\Agency.WebApp\\Agency.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Viktoria\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Viktoria\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
