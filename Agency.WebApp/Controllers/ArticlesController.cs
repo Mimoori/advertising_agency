@@ -1,4 +1,4 @@
-﻿using Agency.Database;
+﻿using Agency.WebApp.Data;
 using Agency.WebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -7,9 +7,9 @@ namespace Agency.WebApp.Controllers
 {
     public class ArticlesController : Controller
     {
-        private readonly ApplicationContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public ArticlesController(ApplicationContext context)
+        public ArticlesController(ApplicationDbContext context)
         {
             _context = context;
         }
@@ -17,7 +17,7 @@ namespace Agency.WebApp.Controllers
         // GET: Articles
         public async Task<IActionResult> Index()
         {
-            return View(await _context.article.ToListAsync());
+            return View(await _context.articles.ToListAsync());
         }
 
         // GET: Articles/Details/5
@@ -28,8 +28,8 @@ namespace Agency.WebApp.Controllers
                 return NotFound();
             }
 
-            var article = await _context.article
-                .FirstOrDefaultAsync(m => m.id == id);
+            var article = await _context.articles
+                .FirstOrDefaultAsync(m => m.id_news == id);
             if (article == null)
             {
                 return NotFound();
@@ -68,7 +68,7 @@ namespace Agency.WebApp.Controllers
                 return NotFound();
             }
 
-            var article = await _context.article.FindAsync(id);
+            var article = await _context.articles.FindAsync(id);
             if (article == null)
             {
                 return NotFound();
@@ -83,7 +83,7 @@ namespace Agency.WebApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("id,title,discription,datetime")] Article article)
         {
-            if (id != article.id)
+            if (id != article.id_news)
             {
                 return NotFound();
             }
@@ -97,7 +97,7 @@ namespace Agency.WebApp.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ArticleExists(article.id))
+                    if (!ArticleExists(article.id_news))
                     {
                         return NotFound();
                     }
@@ -119,8 +119,8 @@ namespace Agency.WebApp.Controllers
                 return NotFound();
             }
 
-            var article = await _context.article
-                .FirstOrDefaultAsync(m => m.id == id);
+            var article = await _context.articles
+                .FirstOrDefaultAsync(m => m.id_news == id);
             if (article == null)
             {
                 return NotFound();
@@ -134,10 +134,10 @@ namespace Agency.WebApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var article = await _context.article.FindAsync(id);
+            var article = await _context.articles.FindAsync(id);
             if (article != null)
             {
-                _context.article.Remove(article);
+                _context.articles.Remove(article);
             }
 
             await _context.SaveChangesAsync();
@@ -146,7 +146,7 @@ namespace Agency.WebApp.Controllers
 
         private bool ArticleExists(int id)
         {
-            return _context.article.Any(e => e.id == id);
+            return _context.articles.Any(e => e.id_news == id);
         }
     }
 }

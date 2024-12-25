@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Viktoria\\Documents\\GitHub\\advertising_agency\\Agency.WebApp\\Agency.WebApp.csproj": {}
+    "C:\\Users\\Viktoria\\Desktop\\КП\\Agency\\Agency.WebApp\\Agency.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Viktoria\\Documents\\GitHub\\advertising_agency\\Agency.WebApp\\Agency.WebApp.csproj": {
+    "C:\\Users\\Viktoria\\Desktop\\КП\\Agency\\Agency.WebApp\\Agency.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Viktoria\\Documents\\GitHub\\advertising_agency\\Agency.WebApp\\Agency.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Viktoria\\Desktop\\КП\\Agency\\Agency.WebApp\\Agency.WebApp.csproj",
         "projectName": "Agency.WebApp",
-        "projectPath": "C:\\Users\\Viktoria\\Documents\\GitHub\\advertising_agency\\Agency.WebApp\\Agency.WebApp.csproj",
+        "projectPath": "C:\\Users\\Viktoria\\Desktop\\КП\\Agency\\Agency.WebApp\\Agency.WebApp.csproj",
         "packagesPath": "C:\\Users\\Viktoria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Viktoria\\Documents\\GitHub\\advertising_agency\\Agency.WebApp\\obj\\",
+        "outputPath": "C:\\Users\\Viktoria\\Desktop\\КП\\Agency\\Agency.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,9 +50,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -64,7 +72,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -72,7 +80,7 @@
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[9.0.2, )"
             }
           },
           "imports": [

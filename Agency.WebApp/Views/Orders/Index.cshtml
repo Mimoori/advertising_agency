@@ -4,11 +4,6 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -19,13 +14,16 @@
                 @Html.DisplayNameFor(model => model.discription)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.service_name)
+                @Html.DisplayNameFor(model => model.service)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.date_start)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.date_end)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.status)
             </th>
             <th></th>
         </tr>
@@ -40,13 +38,19 @@
                 @Html.DisplayFor(modelItem => item.discription)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.service_name)
+                @Html.DisplayFor(modelItem => item.service)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.date_start)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.date_end)
+                @if (item.date_end != DateOnly.MinValue)
+                {
+                    @item.date_end.ToString("dd.MM.yyyy")
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.status)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |

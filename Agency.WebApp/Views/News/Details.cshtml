@@ -1,0 +1,28 @@
+﻿@model Article
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Article</h4>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">Title</dt>
+        <dd class="col-sm-10">@Model.title</dd>
+
+        <dt class="col-sm-2">Descriptions</dt>
+        <dd class="col-sm-10">@Model.descriptions</dd>
+
+        <dt class="col-sm-2">Date and Time</dt>
+        <dd class="col-sm-10">@Model.datetime</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.id_news" class="btn btn-primary">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

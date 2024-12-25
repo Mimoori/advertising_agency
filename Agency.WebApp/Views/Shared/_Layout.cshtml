@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["title"] - Agency.WebApp</title>
+   
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Agency.WebApp.styles.css" asp-append-version="true" />
@@ -22,26 +22,40 @@
                     <ul class="navbar-nav flex-grow-1">
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Главная</a>
                         </li>
+
+                        @if (User.IsInRole("Manager"))
+
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Articles" asp-action="Index">Перейти к статьям</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Orders" asp-action="Index">Перейти к заказам</a>
+                            </li>
+                        }
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Articles" asp-action="Index">Перейти к статьям</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Service" asp-action="Index">Услуги</a>
                         </li>
 
+                        @if (User.IsInRole("Admin"))
+                        {
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Orders" asp-action="Index">Перейти к заказам</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Workers" asp-action="Index">Работники</a>
                         </li>
-
-                       <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Service">Услуги</a>
-                        </li>
-
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Личный кабинет</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Clients" asp-action="Index">Клиенты</a>
                         </li>
+                        }
                         
                     </ul>
+                </div>
+                <div class="navbar-right">
+                    <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>

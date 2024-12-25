@@ -1,71 +1,111 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\",
+  "WorkspaceRootPath": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u0443\u0440\u0441.\u043F\u0440\u043E\u0435\u043A\u0442\\agency\\agency.webapp\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u0443\u0440\u0441.\u043F\u0440\u043E\u0435\u043A\u0442\\agency\\agency.webapp\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u0443\u0440\u0441.\u043F\u0440\u043E\u0435\u043A\u0442\\agency\\agency.webapp\\views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u0443\u0440\u0441.\u043F\u0440\u043E\u0435\u043A\u0442\\agency\\agency.webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u0443\u0440\u0441.\u043F\u0440\u043E\u0435\u043A\u0442\\agency\\agency.webapp\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u0443\u0440\u0441.\u043F\u0440\u043E\u0435\u043A\u0442\\agency\\agency.webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u0443\u0440\u0441.\u043F\u0440\u043E\u0435\u043A\u0442\\agency\\agency.webapp\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u0443\u0440\u0441.\u043F\u0440\u043E\u0435\u043A\u0442\\agency\\agency.webapp\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u0443\u0440\u0441.\u043F\u0440\u043E\u0435\u043A\u0442\\agency\\agency.webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u0443\u0440\u0441.\u043F\u0440\u043E\u0435\u043A\u0442\\agency\\agency.webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u0443\u0440\u0441.\u043F\u0440\u043E\u0435\u043A\u0442\\agency\\agency.webapp\\wwwroot\\css\\article.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\wwwroot\\css\\article.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u0443\u0440\u0441.\u043F\u0440\u043E\u0435\u043A\u0442\\agency\\agency.webapp\\wwwroot\\css\\service.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\wwwroot\\css\\service.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u0443\u0440\u0441.\u043F\u0440\u043E\u0435\u043A\u0442\\agency\\agency.webapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u0443\u0440\u0441.\u043F\u0440\u043E\u0435\u043A\u0442\\agency\\agency.webapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{9239ED63-A4EC-4EAD-8DC0-4FCF9404F704}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\core\\newsservice\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\core\\newsservice\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\models\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\models\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\controllers\\workerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\controllers\\workerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|c:\\users\\viktoria\\desktop\\\u043A\u043F\\agency\\agency.webapp\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B1F061-9423-49EA-8BB2-77DFBAAD768B}|Agency.WebApp\\Agency.WebApp.csproj|solutionrelative:agency.webapp\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 95,
           "SelectedChildIndex": 3,
           "Children": [
             {
@@ -74,7 +114,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -83,171 +123,291 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\ApplicationContext.cs",
-              "RelativeDocumentMoniker": "Agency.WebApp\\ApplicationContext.cs",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\ApplicationContext.cs",
-              "RelativeToolTip": "Agency.WebApp\\ApplicationContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Models\\Order.cs",
+              "RelativeToolTip": "Agency.WebApp\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T14:53:40.38Z",
+              "WhenOpened": "2024-12-23T11:48:29.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ArticlesController.cs",
-              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Controllers\\ArticlesController.cs",
-              "RelativeDocumentMoniker": "Agency.WebApp\\Controllers\\ArticlesController.cs",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Controllers\\ArticlesController.cs",
-              "RelativeToolTip": "Agency.WebApp\\Controllers\\ArticlesController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Agency.WebApp\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T06:19:45.971Z"
+              "WhenOpened": "2024-12-23T11:48:21.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Views\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "Agency.WebApp\\Views\\Orders\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T11:48:15.299Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Agency.WebApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Agency.WebApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T06:19:37.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ServiceController.cs",
-              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Controllers\\ServiceController.cs",
-              "RelativeDocumentMoniker": "Agency.WebApp\\Controllers\\ServiceController.cs",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Controllers\\ServiceController.cs",
-              "RelativeToolTip": "Agency.WebApp\\Controllers\\ServiceController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T06:19:24.163Z"
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Views\\Orders\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "Agency.WebApp\\Views\\Orders\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T11:48:12.723Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "Agency.WebApp\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "Agency.WebApp\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAwwEkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T21:21:47.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Views\\Orders\\Create.cshtml",
-              "RelativeDocumentMoniker": "Agency.WebApp\\Views\\Orders\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Views\\Orders\\Create.cshtml",
-              "RelativeToolTip": "Agency.WebApp\\Views\\Orders\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "Agency.WebApp\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T21:15:04.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Agency.WebApp\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Agency.WebApp\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T21:00:40.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "service.css",
-              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\wwwroot\\css\\service.css",
-              "RelativeDocumentMoniker": "Agency.WebApp\\wwwroot\\css\\service.css",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\wwwroot\\css\\service.css",
-              "RelativeToolTip": "Agency.WebApp\\wwwroot\\css\\service.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-03T21:04:43.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Agency.WebApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Agency.WebApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T20:55:57.058Z"
+              "WhenOpened": "2024-12-23T11:48:09.758Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Service.cshtml",
-              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Views\\Home\\Service.cshtml",
-              "RelativeDocumentMoniker": "Agency.WebApp\\Views\\Home\\Service.cshtml",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Views\\Home\\Service.cshtml",
-              "RelativeToolTip": "Agency.WebApp\\Views\\Home\\Service.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAvAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Views\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Views\\Orders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Views\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "Agency.WebApp\\Views\\Orders\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T20:50:37.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "Agency.WebApp\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "Agency.WebApp\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-03T20:43:23.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "article.css",
-              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\wwwroot\\css\\article.css",
-              "RelativeDocumentMoniker": "Agency.WebApp\\wwwroot\\css\\article.css",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\wwwroot\\css\\article.css",
-              "RelativeToolTip": "Agency.WebApp\\wwwroot\\css\\article.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-03T20:37:00.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Agency.WebApp\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Agency.WebApp\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-03T20:36:50.205Z"
+              "WhenOpened": "2024-12-23T11:48:04.855Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Agency.WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u0443\u0440\u0441.\u041F\u0440\u043E\u0435\u043A\u0442\\Agency\\Agency.WebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Agency.WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABvAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Agency.WebApp\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T19:56:38.11Z"
+              "WhenOpened": "2024-12-23T11:47:59.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "Agency.WebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\appsettings.json",
+              "RelativeToolTip": "Agency.WebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-22T22:50:01.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Services\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Services\\EmailSender.cs",
+              "RelativeToolTip": "Agency.WebApp\\Services\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T22:38:52.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "Agency.WebApp\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T22:29:46.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Agency.WebApp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T21:24:54.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NewsService.cs",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Core\\NewsService\\NewsService.cs",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Core\\NewsService\\NewsService.cs",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Core\\NewsService\\NewsService.cs",
+              "RelativeToolTip": "Agency.WebApp\\Core\\NewsService\\NewsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T21:24:48.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Areas\\Identity\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Agency.WebApp\\Areas\\Identity\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T21:24:31.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Agency.WebApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T21:24:30.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Agency.WebApp\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T21:24:29.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WorkersController.cs",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Controllers\\WorkersController.cs",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Controllers\\WorkersController.cs",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Controllers\\WorkersController.cs",
+              "RelativeToolTip": "Agency.WebApp\\Controllers\\WorkersController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwBgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T20:11:54.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Models\\Worker.cs",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Models\\Worker.cs",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Models\\Worker.cs",
+              "RelativeToolTip": "Agency.WebApp\\Models\\Worker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T20:11:41.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Agency.WebApp\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T10:10:56.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowHYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:25:27.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T09:25:13.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Program.cs",
+              "RelativeToolTip": "Agency.WebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:19:56.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAUwKkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:18:09.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAIAwwIQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:17:16.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Viktoria\\Desktop\\\u041A\u041F\\Agency\\Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "Agency.WebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T09:17:16.097Z"
             }
           ]
         }

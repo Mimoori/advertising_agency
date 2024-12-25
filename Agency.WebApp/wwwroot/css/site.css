@@ -1,37 +1,65 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    html {
+        font-size: 16px;
+    }
 }
 
 body {
-  margin-bottom: 60px;
-  background-color: beige;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Изменено на более светлый фон */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 60px; /* Для футера */
+}
+
+.container {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Центрирование таблицы с отступами сверху и снизу */
+    padding: 0 10px; /* Отступы по бокам таблицы */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 footer {
-    background-color: #333;
+    background: linear-gradient(135deg, #4a90e2, #50e3c2);
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    display: none; 
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 20px;
 }
 
 .footer-content {
@@ -59,7 +87,7 @@ footer {
         }
 
 .hidden {
-    display: none; 
+    display: none;
 }
 
 .news-container {
@@ -77,5 +105,57 @@ footer {
     padding: 20px;
     border: 1px solid #ddd; /* Добавляет рамку */
     border-radius: 8px; /* Скругляет углы */
-    background-color: #f9f9f9; /* Легкий фон */
+    background-color: #ffffff; /* Легкий фон */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для блоков новостей */
+}
+
+/* Стили для таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background: linear-gradient(135deg, #4a90e2, #50e3c2);
+    color: white;
+    font-size: 18px;
+}
+
+td {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+tr:hover td {
+    background-color: #f1f1f1;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+table th:first-child,
+table td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+table th:last-child,
+table td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }

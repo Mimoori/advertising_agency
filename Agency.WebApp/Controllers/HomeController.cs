@@ -1,4 +1,4 @@
-using Agency.Database;
+using Agency.WebApp.Data;
 using Agency.WebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -8,9 +8,9 @@ namespace Agency.WebApp.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly ApplicationContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger, ApplicationContext context)
+        public HomeController(ILogger<HomeController> logger, ApplicationDbContext context)
         {
             _logger = logger;
             _context = context;
@@ -18,7 +18,7 @@ namespace Agency.WebApp.Controllers
 
         public IActionResult Index()
         {
-            return View(_context.article.ToList());
+            return View(_context.articles.ToList());
         }
 
         public IActionResult Privacy()

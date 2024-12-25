@@ -1,83 +1,27 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using Agency.WebApp.Models;
+using Agency.WebApp.Data;
 namespace Agency.WebApp.Controllers
 {
     public class ServiceController : Controller
     {
-        // GET: ServiceController
-        public ActionResult Index()
+        private readonly ApplicationDbContext _context;
+
+        public ServiceController(ApplicationDbContext context)
         {
-            return View();
+            _context = context;
         }
 
-        // GET: ServiceController/Details/5
-        public ActionResult Details(int id)
+        // GET: Orders
+        public async Task<IActionResult> Index()
         {
-            return View();
-        }
-
-        // GET: ServiceController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: ServiceController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: ServiceController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: ServiceController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: ServiceController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: ServiceController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            return View(await _context.service.ToListAsync());
         }
     }
 }

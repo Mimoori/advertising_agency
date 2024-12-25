@@ -38,15 +38,26 @@
     <div class="form-container">
         <h4>Order</h4>
         <hr />
+
+
         <form asp-action="Create" onsubmit="return confirmCreation()">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
+            <!-- Скрытое поле для id_client -->
+            <input type="hidden" asp-for="id_client" value="@ViewBag.CurrentUserId" />
+
+            <!-- Поле для отображения имени пользователя -->
             <div class="form-group">
-                <label asp-for="id_client" class="control-label"></label>
-                <select asp-for="id_client" class="form-control" asp-items="ViewBag.Client">
-                    <option value="">Select a Client</option>
-                </select>
-                <span asp-validation-for="id_client" class="text-danger"></span>
+                <label for="userName" class="control-label">Имя пользователя</label>
+                <input type="text" class="form-control" id="userName" 
+                       value="@ViewBag.CurrentUserName" readonly />
+            </div>
+
+            <!-- Поле для отображения организации пользователя -->
+            <div class="form-group">
+                <label for="organization" class="control-label">Организация</label>
+                <input type="text" class="form-control" id="organization" 
+                       value="@ViewBag.CurrentUserOrganization" readonly />
             </div>
 
             <div class="form-group">
@@ -54,26 +65,35 @@
                 <input asp-for="discription" class="form-control" />
                 <span asp-validation-for="discription" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="service_name" class="control-label"></label>
-                <input asp-for="service_name" class="form-control" />
-                <span asp-validation-for="service_name" class="text-danger"></span>
+                <label asp-for="service" class="control-label"></label>
+                <select asp-for="service" class="form-control" asp-items="ViewBag.Service">
+                    <option value="">Select a Service</option>
+                </select>
+                <span asp-validation-for="service" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="date_start" class="control-label"></label>
-                <input asp-for="date_start" type="date" class="form-control" />
-                <span asp-validation-for="date_start" class="text-danger"></span>
+                <input asp-for="date_start" type="date" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-dd")" readonly />
             </div>
-            <div class="form-group">
-                <label asp-for="date_end" class="control-label"></label>
-                <input asp-for="date_end" type="date" class="form-control" />
-                <span asp-validation-for="date_end" class="text-danger"></span>
+
+            <div class="form-group" style="display: none;">
+                <select asp-for="status" class="form-control">
+                    <option value="ConsideredByTheManager">Рассматриваемое менеджером</option>
+                    <option value="Active">Отправлено в работу</option>
+                    <option value="End">Завершено</option>
+                    <option value="Fall">Отменено</option>
+                </select>
+                <span asp-validation-for="status" class="text-danger"></span>
             </div>
 
             <div class="btn-container">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
+
     </div>
 </div>
 
